@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-height, height=device-width, initial-scale=1.0, user-scalable=no" />
+<title>EsquePiano</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>EsquePiano</h1>
+  <h2>I highly recommend that if you're on Mobile, use Landscape mode.</h2>
+<div id="piano">
+  <!-- Teclas serão geradas via Javascript -->
+</div>
+<div id="controls">
+  <label for="waveType">Wave Type:</label>
+  <select id="waveType">
+    <option value="square50">Square Wave 50%</option>
+    <option value="square25">Square Wave 25%</option>
+    <option value="square12_5">Square Wave 12.5%</option>
+    <option value="sawtooth">Saw Wave</option>
+    <option value="sine">Sine Wave</option>
+  </select>
+  <button id="recordBtn">Record</button>
+  <button id="stopBtn" disabled>Stop</button>
+  <button id="saveBtn" disabled>Download</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
